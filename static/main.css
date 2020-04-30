@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+li{
+    display: inline;
+    padding-right: 30px;
+    letter-spacing: 10px;
+}
+
+nav{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 10px;
+}
+
+li a:hover{
+    color: cadetblue;
+}
+
+.div1{
+    background-image: url("./static/ak.jpg");
+    background-repeat: no-repeat;
+    height: 270px;
+    padding-top: 2px;
+    background-position: center;
+    border-radius: 20px;
+}
+
+#p1{
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 15px;
+    color: blanchedalmond;
+}
+/* 
+.f1{
+    border: 1px solid blanchedalmond;
+    height: 100px;
+    background-color: wheat;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 10px;
+    padding-top: 25px;
+    border-radius: 5px;
+} */
+
+
+.div2{
+    background-image: url("./static/ka.jpg");
+    width: 97%;
+    margin: 21px 19px;
+    padding-left: 20px;
+    padding-top: 50px;
+    height: 700px;
+    border-radius: 10px;
+}
+
+#p2{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: blanchedalmond;
+    padding-bottom: 50px;
+}
+
+#p3{
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-family: 'Dancing Script', cursive;
+    color: blanchedalmond;
+}
+
+#head{
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 30px;
+    font-weight: unset;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.div3{
+    display: inline-block;
+    background-image: url("./static/baba.jpg");
+    border-radius: 15px;
+    width: 50%;
+    /* margin: 21px 25px; */
+    height: 770px;
+    background-position: center;
+}
+
+
+.div4{
+    display: inline-block;
+    background-image: url("./static/gan.jpg");
+    border-radius: 15px;
+    width: 49%;
+    /* margin: 21px 25px; */
+    height: 770px;
+}
+
+.div5{
+    display: inline-block;
+    background-image: url("./static/ram.jpg");
+    border-radius: 25px;
+    width: 50%;
+    /* margin: 21px 25px; */
+    padding-right: 5px;
+    height: 370px;
+    background-position: center;
+}
+
+.div6{
+    display: inline-block;
+    background-image: url("./static/uy.jpg");
+    border-radius: 25px;
+    width: 47%;
+    margin: 21px 25px;
+    height: 370px;
+    background-position: center;
+}
+
+.div7{
+    display: inline-block;
+    background-image: url("./static/pan.jpg");
+    border-radius: 25px;
+    width: 50%;
+    /* margin: 21px 25px; */
+    height: 570px;
+    background-position: center;
+}
+
+.div8{
+    display: inline-block;
+    background-image: url("./static/yat.jpg");
+    border-radius: 25px;
+    width: 49%;
+    /* margin: 21px 25px; */
+    height: 570px;
+    /* background-position: center; */
+}
+/* 
+.div9{
+    display: inline-block;
+    background-image: url("./static/yat.jpg");
+    border-radius: 25px;
+    width: 47%;
+    margin: 21px 25px;
+    height: 370px;
+}
+
+.div10{
+    display: inline-block;
+    background-image: url("./static/sar.jpg");
+    border-radius: 25px;
+    width: 47%;
+    margin: 21px 25px;
+    height: 370px;
+    background-position: center;
+} */
+
+
+
+#para{
+    text-align: center;
+    font-size: 30px;
+    color: cornsilk;
+    padding-top: 30px;
+    letter-spacing: 5px;
+}
+.f1{
+    /* border: 1px solid blanchedalmond; */
+    height: 100px;
+    background-color: rgb(54, 53, 53);
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 10px;
+    padding-top: 25px;
+    /* border-radius: 5px; */
+}
+
+#iv{
+    background-color: rgb(26, 22, 22);
+    height: 250px;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 70px;margin-top: 50px;
+    /* border-radius: 5px; */
+    /* opacity: 0.7; */
+}
+
+
+.di{
+    background-image: url("./static/ank.jpg");
+    width: 97%;
+    margin: 21px 19px;
+    padding-left: 20px;
+    padding-top: 70px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.div1:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+#par{
+    text-align: center;
+    font-size: 30px;
+    color: cornsilk;
+    padding-top: 30px;
+    letter-spacing: 5px;
+}
+
+.vido{
+    margin: 21px 19px;
+    padding-left: 20px;
+    /* padding-top: 70px; */
+    border-radius: 10px;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "vns",
+  "version": "1.0.0",
+  "description": "website for our kashi",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ankit",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10",
+    "nodemon": "^2.0.3",
+    "pug": "^2.0.4"
+  }
+}
