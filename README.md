@@ -13,5 +13,7 @@ Ankit Uapdhyay(MERN stack developer)
 
 
 
-i ive you a code of contact.css you can add it in your code then run it 
-it woll proper for you...
+you have to add in your static folder con.css fie to work contact page properly
+code of contact.css you can add it in your code then run it 
+it will work proper for you...
+i give you in code from name contactfile in reposetory.......
