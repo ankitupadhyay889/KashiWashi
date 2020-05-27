@@ -6,7 +6,7 @@ so who has curious about varanasi it could once see this website
 
 i said website means complete website but without (domain).
 
-Thank you
+Thank you guys
 
 Ankit Uapdhyay(MERN stack developer)
 
